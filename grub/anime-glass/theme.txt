@@ -1,0 +1,33 @@
+title-text: ""
+# desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
++ boot_menu {
+  left = 25%
+  top = 30%
+  width = 50%
+  height = 45%
+  item_font = "Noto Sans Mono Regular 22"
+  item_color = "#cccccc"
+  selected_item_color = "#1FD65F"
+  item_height = 110
+  item_padding = 8
+  item_spacing = 12
+  icon_width = 96
+  icon_height = 96
+  item_icon_space = 16
+}
++ label {
+  id = "__timeout__"
+  top = 80%
+  left = 25%
+  width = 50%
+  height = 30
+  align = "center"
+  text = "Booting in %d seconds..."
+  font = "Noto Sans Mono Regular 22"
+  color = "#1FD65F"
+}

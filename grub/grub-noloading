@@ -1,0 +1,2 @@
+#!/bin/sh
+sed -i "/^[[:space:]]*echo[[:space:]]\+'Loading /d" /boot/grub/grub.cfg

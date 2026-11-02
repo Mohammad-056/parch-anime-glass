@@ -1,0 +1,7 @@
+#!/bin/sh
+cat <<'EOF'
+if [ -f ${prefix}/themes/anime-glass/handoff.png ]; then
+  insmod png
+  background_image -m stretch ${prefix}/themes/anime-glass/handoff.png
+fi
+EOF
