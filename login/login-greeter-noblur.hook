@@ -1,0 +1,19 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Path
+Target = usr/lib/plasma-login-greeter
+Target = usr/libexec/plasma-login-greeter
+Target = usr/lib/plasmalogin/*
+
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = plasma-login*
+Target = plasmalogin*
+
+[Action]
+Description = Re-applying login greeter blur mode...
+When = PostTransaction
+Exec = /usr/local/bin/patch-login-greeter.sh

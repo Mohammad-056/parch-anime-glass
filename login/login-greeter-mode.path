@@ -1,0 +1,11 @@
+[Path]
+PathChanged=/etc/plasmalogin.conf
+PathChanged=/etc/sddm.conf
+PathChanged=/etc/plasmalogin-glass.list
+PathModified=/etc/plasmalogin.conf.d
+PathModified=/etc/sddm.conf.d
+PathChanged=/usr/lib/plasma-login-greeter
+PathChanged=/usr/libexec/plasma-login-greeter
+PathChanged=/usr/lib/plasmalogin/plasma-login-greeter
+[Install]
+WantedBy=multi-user.target

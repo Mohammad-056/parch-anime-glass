@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Anime Glass Theme
+Description=Matrix style boot splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/anime-glass
+ScriptFile=/usr/share/plymouth/themes/anime-glass/anime-glass.script

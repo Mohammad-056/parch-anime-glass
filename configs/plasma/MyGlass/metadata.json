@@ -1,0 +1,4 @@
+{
+  "KPlugin": { "Id": "MyGlass", "Name": "MyGlass", "Description": "Glass panel", "Version": "1.0" },
+  "KPackageStructure": "Plasma/Theme"
+}

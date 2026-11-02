@@ -1,0 +1,27 @@
+Window.SetBackgroundTopColor(0, 0, 0);
+Window.SetBackgroundBottomColor(0, 0, 0);
+
+sw = Window.GetWidth();
+sh = Window.GetHeight();
+
+if (Plymouth.GetMode() == "shutdown") {
+  box_img = Image("bye_box.png");
+  cur_img = Image("bye_cur.png");
+} else {
+  box_img = Image("box.png");
+  cur_img = Image("cur.png");
+}
+px = Math.Int((sw - box_img.GetWidth()) / 2);
+py = Math.Int((sh - box_img.GetHeight()) / 2);
+
+box = Sprite(box_img);
+box.SetPosition(px, py, 10);
+cur = Sprite(cur_img);
+cur.SetPosition(px, py, 11);
+
+tick = 0;
+fun refresh() {
+  global.tick = global.tick + 1;
+  global.cur.SetOpacity(0.55 + 0.45 * Math.Sin(global.tick / 22));
+}
+Plymouth.SetRefreshFunction(refresh);

@@ -1,0 +1,11 @@
+[General]
+Order=glass
+
+[glass]
+Description=Glass all windows
+opacityactive=85
+opacityactiverule=2
+opacityinactive=80
+opacityinactiverule=2
+types=1
+wmclassmatch=0
