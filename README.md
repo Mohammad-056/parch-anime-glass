@@ -1,5 +1,14 @@
 # 🌌 Parch Anime Glass Theme (KDE Plasma 6 + Seamless Boot)
 
+## 📸 Screenshots (پیش‌نمایش تم)
+
+### Desktop & Glass Terminal
+![Desktop Preview](preview.png)
+
+### Custom Glass Login Screen
+![Login Screen](wallpapers/login_background.jpg)
+
+
 A complete, automated Anime & Emerald Glass customization suite for Parch Linux (and Arch-based distributions) running KDE Plasma 6. This project goes beyond simple dotfiles by integrating a seamless visual transition from BIOS/GRUB to Plymouth, Login Manager, Lockscreen, and the KDE Desktop.
 
 ---
