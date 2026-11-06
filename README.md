@@ -35,7 +35,7 @@ A complete, automated Anime & Emerald Glass customization suite for Parch Linux 
 Open your terminal in Parch Linux / Arch Linux (KDE Plasma 6) and run:
 
 `bash
-git clone https://github.com/mohammad-dev-linux/parch-anime-glass.git && cd parch-anime-glass && ./install.sh
+git clone https://github.com/Mohammad-056/parch-anime-glass.git && cd parch-anime-glass && ./install.sh
 `
 
 ---
@@ -71,7 +71,7 @@ parch-anime-glass/
 
 ## 🤝 Credits & AI-Assisted Development
 
-* Architecture, System Integration & Customization: [Mohammad (@mohammad-dev-linux)](https://github.com/mohammad-dev-linux)
+* Architecture, System Integration & Customization: [Mohammad (@Mohammad-056)](https://github.com/Mohammad-056)
 * AI-Assisted Engineering: Developed using modern AI-assisted workflows for complex ffmpeg filtergraph generation, systemd automation units, binary patching scripts, and repository packaging.
 
 ## 📄 License
